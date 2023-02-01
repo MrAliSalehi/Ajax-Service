@@ -1,0 +1,15 @@
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\bin\Debug\net7.0\Test.Console.exe
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\bin\Debug\net7.0\Test.Console.deps.json
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\bin\Debug\net7.0\Test.Console.runtimeconfig.json
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\bin\Debug\net7.0\Test.Console.dll
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\bin\Debug\net7.0\Test.Console.pdb
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\Test.Console.csproj.AssemblyReference.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\Test.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\Test.Console.AssemblyInfoInputs.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\Test.Console.AssemblyInfo.cs
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\Test.Console.csproj.CoreCompileInputs.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\Test.Console.dll
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\refint\Test.Console.dll
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\Test.Console.pdb
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\Test.Console.genruntimeconfig.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\Test.Console\obj\Debug\net7.0\ref\Test.Console.dll

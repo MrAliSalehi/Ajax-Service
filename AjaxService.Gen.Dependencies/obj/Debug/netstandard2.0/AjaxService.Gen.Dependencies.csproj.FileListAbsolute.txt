@@ -1,0 +1,10 @@
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\bin\Debug\netstandard2.0\AjaxService.Gen.Dependencies.deps.json
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\bin\Debug\netstandard2.0\AjaxService.Gen.Dependencies.dll
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\bin\Debug\netstandard2.0\AjaxService.Gen.Dependencies.pdb
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\obj\Debug\netstandard2.0\AjaxService.Gen.Dependencies.csproj.AssemblyReference.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\obj\Debug\netstandard2.0\AjaxService.Gen.Dependencies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\obj\Debug\netstandard2.0\AjaxService.Gen.Dependencies.AssemblyInfoInputs.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\obj\Debug\netstandard2.0\AjaxService.Gen.Dependencies.AssemblyInfo.cs
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\obj\Debug\netstandard2.0\AjaxService.Gen.Dependencies.csproj.CoreCompileInputs.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\obj\Debug\netstandard2.0\AjaxService.Gen.Dependencies.dll
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen.Dependencies\obj\Debug\netstandard2.0\AjaxService.Gen.Dependencies.pdb

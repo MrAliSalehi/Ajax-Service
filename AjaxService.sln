@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3518FD5A-987F-458A-90B4-B54F190FCD88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A3D255F1-1F06-40A1-B494-422D78125FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Console", "Test.Console\Test.Console.csproj", "{0DF834EC-FBB0-4372-A8BD-CBC6700BCC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxService.Gen", "AjaxService.Gen\AjaxService.Gen.csproj", "{594D02B8-1E89-48E4-A641-BD510763E72E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxService.Gen.Dependencies", "AjaxService.Gen.Dependencies\AjaxService.Gen.Dependencies.csproj", "{351A9016-A0AC-4941-BBF2-B4094278A3FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DF834EC-FBB0-4372-A8BD-CBC6700BCC9B} = {3518FD5A-987F-458A-90B4-B54F190FCD88}
+		{594D02B8-1E89-48E4-A641-BD510763E72E} = {A3D255F1-1F06-40A1-B494-422D78125FEF}
+		{351A9016-A0AC-4941-BBF2-B4094278A3FB} = {A3D255F1-1F06-40A1-B494-422D78125FEF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF834EC-FBB0-4372-A8BD-CBC6700BCC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF834EC-FBB0-4372-A8BD-CBC6700BCC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF834EC-FBB0-4372-A8BD-CBC6700BCC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF834EC-FBB0-4372-A8BD-CBC6700BCC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594D02B8-1E89-48E4-A641-BD510763E72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594D02B8-1E89-48E4-A641-BD510763E72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594D02B8-1E89-48E4-A641-BD510763E72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594D02B8-1E89-48E4-A641-BD510763E72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351A9016-A0AC-4941-BBF2-B4094278A3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351A9016-A0AC-4941-BBF2-B4094278A3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351A9016-A0AC-4941-BBF2-B4094278A3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351A9016-A0AC-4941-BBF2-B4094278A3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

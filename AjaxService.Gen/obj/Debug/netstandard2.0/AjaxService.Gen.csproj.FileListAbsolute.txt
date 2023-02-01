@@ -1,0 +1,13 @@
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\bin\Debug\netstandard2.0\AjaxService.Gen.deps.json
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\bin\Debug\netstandard2.0\AjaxService.Gen.dll
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\bin\Debug\netstandard2.0\AjaxService.Gen.pdb
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\bin\Debug\netstandard2.0\AjaxService.Gen.Dependencies.dll
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\bin\Debug\netstandard2.0\AjaxService.Gen.Dependencies.pdb
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\obj\Debug\netstandard2.0\AjaxService.Gen.csproj.AssemblyReference.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\obj\Debug\netstandard2.0\AjaxService.Gen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\obj\Debug\netstandard2.0\AjaxService.Gen.AssemblyInfoInputs.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\obj\Debug\netstandard2.0\AjaxService.Gen.AssemblyInfo.cs
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\obj\Debug\netstandard2.0\AjaxService.Gen.csproj.CoreCompileInputs.cache
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\obj\Debug\netstandard2.0\AjaxService.Gen.csproj.CopyComplete
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\obj\Debug\netstandard2.0\AjaxService.Gen.dll
+C:\Users\Ali\source\repos\ClassLibraries\AjaxService\AjaxService.Gen\obj\Debug\netstandard2.0\AjaxService.Gen.pdb
