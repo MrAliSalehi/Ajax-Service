@@ -7,25 +7,29 @@ namespace Test.Console;
 public class HomeController : Controller
 {
     [Ajax("d/da"),HttpGet]
-    public static List<AnotherDto> IndexFunctionasync([FromQuery] string[] strArr,[FromBody] FirstDto[] intArr,[FromQuery]bool someBool)
+    public static List<AnotherDto> Endpoint_1([FromQuery] string[] strArr,[FromBody] FirstDto[] intArr,[FromQuery]bool someBool)
     {
-        return null!;
+        return new List<AnotherDto>();
     }
 
     [Ajax("test/path"),HttpPost]
-    public AnotherDto index2Async([FromHeader]string fun,[FromHeader]int num,[FromHeader] ulong n, [FromBody] bool someBool)
+    public AnotherDto Endpoint2([FromHeader]string fun,[FromHeader]int num,[FromHeader] ulong n, [FromBody] bool someBool)
     {
         return new AnotherDto();
     }
 
     [Ajax("/api/home"),HttpPut]
-    public FirstDto seifef([FromHeader] string strs, [FromQuery] int f, string d)
+    public FirstDto Endpoint3([FromHeader] string strs, [FromQuery] int f, string d)
     {
         return new FirstDto();
     }
 
     [Ajax("another/Api/d"),HttpDelete]
-    public void LetsTestCamelCaseShallWe() { }
+    public void LetsTestCamelCaseShallWe()
+    {
+        
+    }
+    
 }
 
 /*[ApiController]

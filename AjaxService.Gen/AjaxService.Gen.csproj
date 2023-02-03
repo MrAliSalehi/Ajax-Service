@@ -11,10 +11,10 @@
         <Authors>Qwxp</Authors>
         <Description>Generate typescript ajax calls based on your controller endpoints</Description>
         <Copyright>Apache-2.0</Copyright>
-        <PackageProjectUrl>https://github.com/MrAliSalehi/AjaxService.Gen</PackageProjectUrl>
-        <Version>1.0.2</Version>
+        <PackageProjectUrl>https://github.com/MrAliSalehi/AjaxService</PackageProjectUrl>
+        <Version>1.0.3</Version>
         <Title>AjaxService.Gen</Title>
-        <AssemblyVersion>1.0.2</AssemblyVersion>
+        <AssemblyVersion>1.0.3</AssemblyVersion>
     </PropertyGroup>
 
 

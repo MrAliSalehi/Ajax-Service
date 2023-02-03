@@ -21,7 +21,7 @@ public class PredefinedType
     public static string DefaultValue(string type) => type switch
     {
         "number"  => "0",
-        "bigint"  => "undefined",
+        "bigint"  => "BigInt(0)",
         "string"  => "\"\"",
         "boolean" => "false",
         _         => throw new NotSupportedException($"the type[{type}] does not have a default value.")

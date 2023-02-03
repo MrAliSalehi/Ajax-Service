@@ -7,7 +7,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
+<!--    <ItemGroup>
       <PackageReference Include="AjaxService.Gen" Version="1.0.2" />
+    </ItemGroup>-->
+
+    <ItemGroup>
+      <ProjectReference Include="..\AjaxService.Gen.Dependencies\AjaxService.Gen.Dependencies.csproj" />
+      <ProjectReference Include="..\AjaxService.Gen\AjaxService.Gen.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
     </ItemGroup>
 </Project>

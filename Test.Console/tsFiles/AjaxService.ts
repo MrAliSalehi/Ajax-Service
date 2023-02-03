@@ -30,27 +30,28 @@ export module AjaxService {
 
 
     export class HomeController {
-        public async IndexFunctionAsync(strArr: string[] = [], intArr: FirstDto[] = [], someBool: boolean = false): Promise<OneOf<Response, AnotherDto[]>> {
-            let url = "d/da"+ BuildQuery<string>("strArr",strArr)+`?someBool=${someBool}`
-            const response = await FetchAsync<AnotherDto[]>(url,"GET",null,JSON.stringify(intArr))
+        public async Endpoint_1Async(strArr: string[] = [], intArr: FirstDto[] = [], someBool: boolean = false): Promise<OneOf<Response, AnotherDto[]>> {
+            let url = "d/da" + BuildQuery<string>("strArr", strArr) + `?someBool=${someBool}`
+            const response = await FetchAsync<AnotherDto[]>(url, "GET", null, JSON.stringify(intArr))
+            
             if (response.IsRight()) {
                 return Right.Create(response.Value)
             }
             return Left.Create(response.Error);
         }
 
-        public async index2Async(fun: string = "", num: number = 0, n: bigint = undefined, someBool: boolean = false): Promise<OneOf<Response, AnotherDto>> {
+        public async Endpoint2Async(fun: string = "", num: number = 0, n: bigint = undefined, someBool: boolean = false): Promise<OneOf<Response, AnotherDto>> {
             let url = "test/path";
-            const response = await FetchAsync<AnotherDto>(url,"POST",{'fun':`${fun}`,'num':`${num}`,'n':`${n}`,},JSON.stringify(someBool))
+            const response = await FetchAsync<AnotherDto>(url, "POST", {'fun': `${fun}`, 'num': `${num}`, 'n': `${n}`,}, JSON.stringify(someBool))
             if (response.IsRight()) {
                 return Right.Create(response.Value)
             }
             return Left.Create(response.Error);
         }
 
-        public async seifefAsync(strs: string = "", f: number = 0, d: string = ""): Promise<OneOf<Response, FirstDto>> {
-            let url = "/api/home"+`?f=${f}`+`?d=${d}`
-            const response = await FetchAsync<FirstDto>(url,"PUT",{'strs':`${strs}`,})
+        public async Endpoint3Async(strs: string = "", f: number = 0, d: string = ""): Promise<OneOf<Response, FirstDto>> {
+            let url = "/api/home" + `?f=${f}` + `?d=${d}`
+            const response = await FetchAsync<FirstDto>(url, "PUT", {'strs': `${strs}`,})
             if (response.IsRight()) {
                 return Right.Create(response.Value)
             }
@@ -59,7 +60,7 @@ export module AjaxService {
 
         public async LetsTestCamelCaseShallWeAsync(): Promise<OneOf<Response, void>> {
             let url = "another/Api/d";
-            const response = await FetchAsync<void>(url,"DELETE",null)
+            const response = await FetchAsync<void>(url, "DELETE", null)
             if (response.IsRight()) {
                 return Right.Create(response.Value)
             }
@@ -69,4 +70,4 @@ export module AjaxService {
     }
 
 }
-import {OneOf,Left,Right,FirstDto,AnotherDto} from "./Models";
+import {OneOf, Left, Right, FirstDto, AnotherDto, Person} from "./Models";

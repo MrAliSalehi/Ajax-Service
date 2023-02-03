@@ -44,18 +44,25 @@ export class AnotherDto {
         this.Soekfeof = Soekfeof;
     }
 }//-EndClass
+export class Person {
+    public readonly Name: string = "";
+
+    constructor(Name: string = "") {
+        this.Name = Name;
+    }
+}//-EndClass
 export class FirstDto {
-    public readonly FirstDtos: AnotherDto[] = [];
-    public readonly AnotherDtossssss: AnotherDto = new AnotherDto();
+    public readonly FirstDtoList: AnotherDto[] = [];
+    public readonly AnotherPerson: Person = new Person();
     public readonly ReadOnlyCollection: AnotherDto[] = [];
     public readonly Name: string = "";
     public readonly Age: number = 0;
     public readonly Height: number = 0;
     public readonly IsDumb: boolean = false;
 
-    constructor(FirstDtos: AnotherDto[] = [], AnotherDtossssss: AnotherDto = new AnotherDto(), ReadOnlyCollection: AnotherDto[] = [], Name: string = "", Age: number = 0, Height: number = 0, IsDumb: boolean = false) {
-        this.FirstDtos = FirstDtos;
-        this.AnotherDtossssss = AnotherDtossssss;
+    constructor(FirstDtoList: AnotherDto[] = [], AnotherPerson: Person = new Person(), ReadOnlyCollection: AnotherDto[] = [], Name: string = "", Age: number = 0, Height: number = 0, IsDumb: boolean = false) {
+        this.FirstDtoList = FirstDtoList;
+        this.AnotherPerson = AnotherPerson;
         this.ReadOnlyCollection = ReadOnlyCollection;
         this.Name = Name;
         this.Age = Age;

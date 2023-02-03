@@ -12,6 +12,7 @@ namespace AjaxService.Gen;
 public class MainGenerator : ISourceGenerator
 {
     //bug : string,number ..etc cant be a valid name in ts for var so do something about it 
+    //bug Argument of type 'null' is not assignable to parameter of type 'HeadersInit | undefined'. replace null with {} in FetchAsync parameters
     //note to my self
     //Get cant have body
     //objects can only be [FromBody]
@@ -23,7 +24,7 @@ public class MainGenerator : ISourceGenerator
     //jagged arrays is not allowed here, it would perform the same as a normal array ->
     // &anotherArr=ww&anotherArr=wstringwwe&anotherArr=rtew3&anotherArr=a3453451&anotherArr=aada v
 
-
+    ///CHECKED BigInt(2) def value 
     ///CHECKED if it does not have any Attr, Simple types should go with [FromQuery] and complex objects should use [FromBody]
     ///CHECKED FromQuery(Another?age=12) and FromRoute(Another/12/str) can be infinite.
     ///CHECKED throw if there is a complex object and another simple type flagged as [FromBody]
