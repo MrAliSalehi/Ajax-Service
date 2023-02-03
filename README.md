@@ -185,5 +185,5 @@ I mean, not completely, if you have the followings:
 they all will be same as `int[]`.
 because it cant be fit in a request **IF their type is not [FromBody]**.
 
-so in `[FromHeader]` and `[FromQuery]` they are same as a simple array, however you can always [put them in an object](https://github.com/MrAliSalehi/AjaxService/edit/master/README.md#recommandations) and thay way it will work.
+so in `[FromHeader]` and `[FromQuery]` they are same as a simple array, however you can always [put them in an object](https://github.com/MrAliSalehi/AjaxService#small_red_triangle_down-i-highly-suggest-to-use-only-one-parameter-for-your-endpoint-and-put-everything-inside-it-for-example-instead-of-this) and thay way it will work.
 
