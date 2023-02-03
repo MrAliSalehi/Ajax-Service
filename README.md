@@ -31,13 +31,13 @@
 
 **To:**
 
-<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/tsClass.png?raw=true" width="650" height="480"/>
+<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/tsClass.png?raw=true" width="750" height="680"/>
 
 ### **Endpoints:**
 
 **From:**
 
-<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/csharpEndpoint.png?raw=true" width="650" height="480"/>
+<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/csharpEndpoint.png?raw=true" width="500" height="320"/>
 
 **To:**
 
