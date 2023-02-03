@@ -1,7 +1,11 @@
-[![NuGet stable version](https://badgen.net/nuget/v/AjaxService.Gen)](https://www.nuget.org/packages/AjaxService.Gen)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-# AjaxService.Gen
+[![Generic badge](https://img.shields.io/badge/dotnet-standard2.0-darkgreen.svg)](https://github.com/MrAliSalehi/AjaxService.Gen)
+[![MIT License](https://img.shields.io/badge/License-MIT-white.svg)](https://choosealicense.com/licenses/mit/)
+![Nuget](https://img.shields.io/nuget/dt/AjaxService.Gen?color=darkred)
 
+[![NuGet stable version](https://badgen.net/nuget/v/AjaxService.Gen)](https://www.nuget.org/packages/AjaxService.Gen)
+![Views](https://gpvc.arturio.dev/AjaxService)
+
+# AjaxService.Gen
   
 #### [AjaxService](https://github.com/MrAliSalehi/AjaxService.Gen) is a source-generator, it can generate *[ajax](https://www.w3schools.com/xml/ajax_intro.asp)* calls in *typescript* **based** on your c\# *api endpoints*.
 
