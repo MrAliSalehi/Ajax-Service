@@ -11,7 +11,7 @@
 
 
 
-## Features
+# Features
 
 - **detects parameters and return types.**
 - **create models and classes based on associated types.**
@@ -43,3 +43,64 @@
 
 <img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/tsEndpoint.png?raw=true" width="650" height="480"/>
 
+
+# Install
+
+
+dotnet cli: `dotnet add package AjaxService.Gen --version 1.0.2`
+
+nuget: `NuGet\Install-Package AjaxService.Gen -Version 1.0.2`
+
+reference: `<PackageReference Include="AjaxService.Gen" Version="1.0.2" />`
+
+###
+
+
+# How to Use
+
+after [installing]() the package. you have access to `[Ajax]` attribute.
+
+add it to your endpoint and pass dawn the url:
+
+```csharp
+[Ajax("http://mysite.com/url/to/endpoint")]
+public User GetUser(int id)
+{
+    return new User();
+}
+```
+
+then **build** your project.
+
+it will create a `tsFiles` directory in your project and 2 files:
+
+- `AjaxService.ts`
+- `Models.ts`
+
+Now you can use your endpoint in client code: 
+
+import AjaxService:
+```typescript
+import {AjaxService} from "./AjaxService";
+```
+create an instance of your controller:
+```typescript
+let controller = new AjaxService.HomeController();
+```
+in my case, my controller was `HomeController`,make sure to replace it with yours.
+
+and at the end, call the endpoint:
+
+```typescript
+let result = await controller.Endpoint_1Async();
+```
+to use the result you **have** to `await` the call and also check the status of call:
+
+```typescript
+if (result.IsRight()) {
+    console.log(result.Value);
+    return;
+}
+console.log(result.Error);
+
+```
