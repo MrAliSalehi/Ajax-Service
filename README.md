@@ -27,7 +27,7 @@
 
 # Features
 
-- **detects parameters and return types.**
+- **detects parameters and return types automatically.**
 - **create models and classes based on associated types.**
 - **support [FromBody],[FromHeader],[FromQuery]** (in other words, it can handle body,header and query types).
 - **validates parameter types and creates valid ajax calls.**
