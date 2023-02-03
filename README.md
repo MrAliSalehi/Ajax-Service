@@ -87,7 +87,7 @@ in my case, my controller was `HomeController`,make sure to replace it with your
 and at the end, call the endpoint:
 
 ```typescript
-let result = await controller.Endpoint_1Async();
+let result = await controller.GetUserAsync(1);
 ```
 to use the result you **have** to `await` the call and also check the status of call:
 
