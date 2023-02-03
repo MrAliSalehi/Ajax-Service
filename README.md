@@ -1,4 +1,4 @@
-[![NuGet stable version](https://badgen.net/nuget/v/AjaxService.Gen)](https://badgen.net/nuget/v/AjaxService.Gen)
+[![NuGet stable version](https://badgen.net/nuget/v/AjaxService.Gen)](https://www.nuget.org/packages/AjaxService.Gen)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 # AjaxService.Gen
 
@@ -11,9 +11,6 @@
 
 - [Table of contents](#table-of-contents)
 - [Features](#features)
-- [Demo](#demo)
-    - [**models**](#models)
-    - [**Endpoints**](#endpoints)
 - [Install](#install)
 - [How to Use](#how-to-use)
 - [Recommandations](#recommandations)
@@ -22,7 +19,9 @@
     - [**Use Attributes**](#use-attributes-to-specify-type-of-an-parameter-supported-types-are)
     - [**`[FromBody]` and Complex Object**](#only-one-frombody-only-one-complex-object)
     - [**Jagged/Multidimensional arrays**](#jaggedmultidimensional-arrays-are-ignored)
-
+- [Demo](#demo)
+    - [**models**](#models)
+    - [**Endpoints**](#endpoints)
 
 
 
@@ -34,29 +33,6 @@
 - **validates parameter types and creates valid ajax calls.**
 - **uses best practices for generated typescript code.**
 - **uses built-in fetch api with asynchronous functionality.**
-
-
-# Demo
-
-### **models:**
-
-**From:**
-
-<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/csharpClass.png?raw=true" width="600" height="400"/>
-
-**To:**
-
-<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/tsClass.png?raw=true" width="750" height="680"/>
-
-### **Endpoints:**
-
-**From:**
-
-<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/csharpEndpoint.png?raw=true" width="500" height="320"/>
-
-**To:**
-
-<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/tsEndpoint.png?raw=true" width="650" height="480"/>
 
 
 # Install
@@ -197,3 +173,25 @@ because it cant be fit in a request **IF their type is not [FromBody]**.
 
 so in `[FromHeader]` and `[FromQuery]` they are same as a simple array, however you can always [put them in an object](https://github.com/MrAliSalehi/AjaxService#small_red_triangle_down-i-highly-suggest-to-use-only-one-parameter-for-your-endpoint-and-put-everything-inside-it-for-example-instead-of-this) and thay way it will work.
 
+
+# Demo
+
+### **models:**
+
+**From:**
+
+<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/csharpClass.png?raw=true" width="600" height="400"/>
+
+**To:**
+
+<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/tsClass.png?raw=true" width="750" height="680"/>
+
+### **Endpoints:**
+
+**From:**
+
+<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/csharpEndpoint.png?raw=true" width="500" height="320"/>
+
+**To:**
+
+<img src="https://github.com/MrAliSalehi/AjaxService/blob/master/images/tsEndpoint.png?raw=true" width="650" height="480"/>
