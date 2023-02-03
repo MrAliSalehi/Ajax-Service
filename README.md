@@ -7,7 +7,22 @@
 
 
 
-## Table of content
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+- [Features](#features)
+- [Demo](#demo)
+    - [**models**](#models)
+    - [**Endpoints**](#endpoints)
+- [Install](#install)
+- [How to Use](#how-to-use)
+- [Recommandations](#recommandations)
+    - [**only one parameter**](#i-highly-suggest-to-use-only-one-parameter-for-your-endpoint-and-put-everything-inside-it-for-example-instead-of-this)
+    - [**DO NOT use circular objects**](#do-not-use-circular-parent-child-objects-example)
+    - [**Use Attributes**](#use-attributes-to-specify-type-of-an-parameter-supported-types-are)
+    - [**`[FromBody]` and Complex Object**](#only-one-frombody-only-one-complex-object)
+    - [**Jagged/Multidimensional arrays**](#jaggedmultidimensional-arrays-are-ignored)
+
 
 
 
@@ -106,9 +121,9 @@ console.log(result.Error);
 ```
 
 
-## Recommandations
+# Recommandations
 
-- #### :small_red_triangle_down: **I highly suggest to use only one parameter for your endpoint and put everything inside it, for example instead of this:**
+### **I highly suggest to use only one parameter for your endpoint and put everything inside it, for example instead of this:**
 
 ```csharp
 void UpdateUser(string name,int age,datetime birthDate){
@@ -131,9 +146,8 @@ void UpdateUser(UpdateUserDto user){
 }
 ```
 
-###
 
-- #### :small_red_triangle_down: **DO NOT use circular parent child objects, example:**
+### **DO NOT use circular parent child objects, example:**
 ```csharp
 class Parent{
     public string name { get; set; }
@@ -146,18 +160,15 @@ class Child {
 it would presumably blow your pc with infinte object creations(perhaps i handled it but i just cant remember!)
 
 
-###
-
-- #### :small_red_triangle_down: **Use Attributes to specify type of an parameter, supported types are:**
+### **Use Attributes to specify type of an parameter, supported types are:**
   - `[FromBody]`
   - `[FromHeader]`
   - `[FromQuery]`
 
 :warning: if you dont specify anything with these Attributes, AjaxService by default uses `[FromBody]` for **complex objects**(classes) and `[FromQuery]` for **simple types**(string,int,bool...etc).
 
-###
 
-- #### :small_red_triangle_down: **Only One `[FromBody]`, only one Complex Object**
+### **Only One `[FromBody]`, only one Complex Object**
 
 since AjaxService does not support `[FromForm]`, you can only have one complex object as an argument, otherwise it wont be able to send the data. for example this does not work:
 
@@ -174,9 +185,8 @@ void UpdateUser([FromBody]int age,User user){
 ```
 because, **only one** argument can be passed as `[FromBody]` and there is no any other option for complex objects.
 
-###
 
-- #### :small_red_triangle_down: **Jagged/Multidimensional arrays are ignored.** 
+### **Jagged/Multidimensional arrays are ignored.** 
 
 I mean, not completely, if you have the followings:
 
