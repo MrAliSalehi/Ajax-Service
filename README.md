@@ -49,7 +49,7 @@ reference: `<PackageReference Include="AjaxService.Gen" Version="1.0.2" />`
 
 # How to Use
 
-after [installing]() the package. you have access to `[Ajax]` attribute.
+after [installing](#install) the package. you have access to `[Ajax]` attribute.
 
 add it to your endpoint and pass dawn the url:
 
