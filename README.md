@@ -104,3 +104,86 @@ if (result.IsRight()) {
 console.log(result.Error);
 
 ```
+
+
+## Recommandations
+
+- #### :small_red_triangle_down: **I highly suggest to use only one parameter for your endpoint and put everything inside it, for example instead of this:**
+
+```csharp
+void UpdateUser(string name,int age,datetime birthDate){
+    //update
+}
+```
+wrap your input in one single object:
+```csharp
+class UpdateUserDto{
+    public string name { get; set; }
+    public int age { get; set; }
+    public datetime birthDate { get; set; }
+}
+```
+and use that in your endpoint:
+
+```csharp
+void UpdateUser(UpdateUserDto user){
+    //update user
+}
+```
+
+###
+
+- #### :small_red_triangle_down: **DO NOT use circular parent child objects, example:**
+```csharp
+class Parent{
+    public string name { get; set; }
+    public Child MyChild { get; set; }
+}
+class Child { 
+    public Parent MyParent { get; set; }
+}
+```
+it would presumably blow your pc with infinte object creations(perhaps i handled it but i just cant remember!)
+
+
+###
+
+- #### :small_red_triangle_down: **Use Attributes to specify type of an parameter, supported types are:**
+  - `[FromBody]`
+  - `[FromHeader]`
+  - `[FromQuery]`
+
+:warning: if you dont specify anything with these Attributes, AjaxService by default uses `[FromBody]` for **complex objects**(classes) and `[FromQuery]` for **simple types**(string,int,bool...etc).
+
+###
+
+- #### :small_red_triangle_down: **Only One `[FromBody]`, only one Complex Object**
+
+since AjaxService does not support `[FromForm]`, you can only have one complex object as an argument, otherwise it wont be able to send the data. for example this does not work:
+
+```csharp
+void UpdateUser(User user, UserAge age){ 
+    // will throw exception on compile time
+}
+```
+also if you asign a simple type to `[FromBody]` and your endpoint has a complex type; that will also throw,e.x:
+```csharp
+void UpdateUser([FromBody]int age,User user){
+
+}
+```
+because, **only one** argument can be passed as `[FromBody]` and there is no any other option for complex objects.
+
+###
+
+- #### :small_red_triangle_down: **Jagged/Multidimensional arrays are ignored.** 
+
+I mean, not completely, if you have the followings:
+
+`int[][]` or `List<int[]>` or `List<int>[]` ..etc
+
+they all will be same as `int[]`.
+because it cant be fit in a request **IF their type is not [FromBody]**.
+
+so in `[FromHeader]` and `[FromQuery]` they are same as a simple array, however you can always [put them in an object](https://github.com/MrAliSalehi/AjaxService/edit/master/README.md#recommandations) and thay way it will work.
+
