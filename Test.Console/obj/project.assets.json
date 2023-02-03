@@ -1,15 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "AjaxService.Gen/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "AjaxService.Gen.Dependencies": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AjaxService.Gen.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AjaxService.Gen.dll": {}
+        }
+      },
+      "AjaxService.Gen.Dependencies/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AjaxService.Gen.Dependencies.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AjaxService.Gen.Dependencies.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AjaxService.Gen/1.0.2": {
+      "sha512": "i0geBe2DyikoTx75locmmJywjl8w65mSHt20MZnAE1jFbz+zyWRYh5CN6MXVYCWPkEN4o4weja9dTIYyuXJDHg==",
+      "type": "package",
+      "path": "ajaxservice.gen/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ajaxservice.gen.1.0.2.nupkg.sha512",
+        "ajaxservice.gen.nuspec",
+        "analyzers/dotnet/cs/AjaxService.Gen.dll",
+        "lib/netstandard2.0/AjaxService.Gen.dll"
+      ]
+    },
+    "AjaxService.Gen.Dependencies/1.0.0": {
+      "sha512": "dcVq8M1Jk7YPoiRGnU90HZrHQcc8a0V2u0iUyQPvMVRaiWZr/EuucHPHGRKIXze3NUrZNSnxlMVL7R+BAZ/xHg==",
+      "type": "package",
+      "path": "ajaxservice.gen.dependencies/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ajaxservice.gen.dependencies.1.0.0.nupkg.sha512",
+        "ajaxservice.gen.dependencies.nuspec",
+        "lib/netstandard2.0/AjaxService.Gen.Dependencies.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "AjaxService.Gen >= 1.0.2"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Ali\\.nuget\\packages\\": {},
-    "A:\\Softwares\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Ali\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -20,19 +69,13 @@
       "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ali\\source\\repos\\ClassLibraries\\AjaxService\\Test.Console\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "A:\\Softwares\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -51,6 +94,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "AjaxService.Gen": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

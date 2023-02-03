@@ -7,25 +7,28 @@
         <Nullable>enable</Nullable>
         <IsRoslynComponent>true</IsRoslynComponent>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <IncludeBuildOutput>true</IncludeBuildOutput>
         <Authors>Qwxp</Authors>
         <Description>Generate typescript ajax calls based on your controller endpoints</Description>
         <Copyright>Apache-2.0</Copyright>
         <PackageProjectUrl>https://github.com/MrAliSalehi/AjaxService.Gen</PackageProjectUrl>
-        <Version>1.0.0</Version>
+        <Version>1.0.2</Version>
+        <Title>AjaxService.Gen</Title>
+        <AssemblyVersion>1.0.2</AssemblyVersion>
     </PropertyGroup>
 
+
     <ItemGroup>
-        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.4.0" PrivateAssets="all" />
-        <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.4.0" PrivateAssets="all"/>
+        <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.3" PrivateAssets="all"/>
     </ItemGroup>
 
     <ItemGroup>
-        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\AjaxService.Gen.Dependencies\AjaxService.Gen.Dependencies.csproj" />
+        <ProjectReference Include="..\AjaxService.Gen.Dependencies\AjaxService.Gen.Dependencies.csproj"/>
     </ItemGroup>
 
 </Project>

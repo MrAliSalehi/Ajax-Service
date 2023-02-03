@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1FiS56Ts/mTDUeizd2vP5OcCTftVWUGeu6oUiRnXI0xi1E0f9BZtR1dx+PQu5gmIF1ClhfK3/4cTYhS8RsC/Bw==",
+  "dgSpecHash": "83J1Pf6gR8s20TqOyeBBq1Fetq/+gjqZJwHAeBcX8jy5fBtD0nxYzr5DRCcYQR9b4B6D/HdzLwqYUkCHPxp7ng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ali\\source\\repos\\ClassLibraries\\AjaxService\\Test.Console\\Test.Console.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ali\\.nuget\\packages\\ajaxservice.gen\\1.0.2\\ajaxservice.gen.1.0.2.nupkg.sha512",
+    "C:\\Users\\Ali\\.nuget\\packages\\ajaxservice.gen.dependencies\\1.0.0\\ajaxservice.gen.dependencies.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

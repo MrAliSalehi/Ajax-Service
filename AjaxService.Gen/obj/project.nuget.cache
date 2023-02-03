@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A60ckqbKRE6MBB9QllSecV8bdvYbxCWNru8afAVnce4OzzpHnGV8kIXiV/MiVo040Ly0kFrqEaQ1luPCNMHcCw==",
+  "dgSpecHash": "Wh/F91qfpNpw2yKktbErfweWI5RybSpoL3beM/R7arEYt1wqVT3iJlp4wnEph82atPsZACnkiIBzx/Hv+wnQpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ali\\source\\repos\\ClassLibraries\\AjaxService\\AjaxService.Gen\\AjaxService.Gen.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,8 @@
     "C:\\Users\\Ali\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
-    "C:\\Users\\Ali\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\Ali\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Ali\\.nuget\\packages\\ajaxservice.gen.dependencies\\1.0.0\\ajaxservice.gen.dependencies.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

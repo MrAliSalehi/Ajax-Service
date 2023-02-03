@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "AjaxService.Gen/1.0.0": {
+      "AjaxService.Gen/1.0.2": {
         "dependencies": {
           "AjaxService.Gen.Dependencies": "1.0.0",
           "Microsoft.CodeAnalysis.Analyzers": "3.3.3",
@@ -226,7 +226,7 @@
     }
   },
   "libraries": {
-    "AjaxService.Gen/1.0.0": {
+    "AjaxService.Gen/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
