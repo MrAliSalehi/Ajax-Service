@@ -37,7 +37,8 @@
 - **validates parameter types and creates valid ajax calls.**
 - **uses best practices for generated typescript code.**
 - **uses built-in fetch api with asynchronous functionality.**
-
+- **generates immutable classes.**
+- **generates constructor for classes with default value.**
 
 # Install
 
