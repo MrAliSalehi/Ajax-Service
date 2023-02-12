@@ -43,11 +43,11 @@
 # Install
 
 
-dotnet cli: `dotnet add package AjaxService.Gen --version 1.0.2`
+dotnet cli: `dotnet add package AjaxService.Gen --version 1.0.3`
 
-nuget: `NuGet\Install-Package AjaxService.Gen -Version 1.0.2`
+nuget: `NuGet\Install-Package AjaxService.Gen -Version 1.0.3`
 
-reference: `<PackageReference Include="AjaxService.Gen" Version="1.0.2" />`
+reference: `<PackageReference Include="AjaxService.Gen" Version="1.0.3" />`
 
 ###
 
