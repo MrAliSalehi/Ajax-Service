@@ -17,7 +17,7 @@
 - [Features](#features)
 - [Install](#install)
 - [How to Use](#how-to-use)
-- [Recommandations](#recommandations)
+- [Recommendations](#recommandations)
     - [**only one parameter**](#i-highly-suggest-to-use-only-one-parameter-for-your-endpoint-and-put-everything-inside-it-for-example-instead-of-this)
     - [**DO NOT use circular objects**](#do-not-use-circular-parent-child-objects-example)
     - [**Use Attributes**](#use-attributes-to-specify-type-of-an-parameter-supported-types-are)
@@ -102,7 +102,7 @@ console.log(result.Error);
 ```
 
 
-# Recommandations
+# Recommendations
 
 ### **I highly suggest to use only one parameter for your endpoint and put everything inside it, for example instead of this:**
 
